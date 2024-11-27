@@ -1,0 +1,15 @@
+@model SaveUser
+
+
+
+<form method="post" action="/Home/SaveUser">
+
+
+    @Html.TextBoxFor(s=>s.Username,new { @class="form-control",id=32})
+
+    <br>
+
+    <input class="btn btn-primary"  name=@Model.Username type="text" placeholder="UserName">
+    <input type="submit" value="Kaydet">
+
+</form>

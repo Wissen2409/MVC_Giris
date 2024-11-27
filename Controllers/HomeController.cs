@@ -12,7 +12,41 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+    
 
+
+    // HttpGet
+    // Post 
+
+    // Post ve get ile çalışır!!
+
+    // Get : sayfanın hiç bir parametreye bağlı olmadan talep edilmesi
+
+    // Post : Sayfaya bir parametre vererek sayfanın gönderilmesi!!! 
+    
+    [HttpGet]
+    public IActionResult SaveUser(){
+
+        SaveUser user = new SaveUser();
+        return View(user);
+    }
+
+    [HttpPost]
+    public IActionResult SaveUser(SaveUser model){
+        
+        return View();
+    }
+
+
+    public IActionResult MyPage(){
+
+        // kendi mvc sayfamızı yapalım!!
+
+        // sayfa oluşturmak için bir action birde view'a ihtiyacımız var!!
+
+        // eğer, return view dediğinizde view adı vermezseniz, action'ın adında bir view arayacaktır sistem!!!!
+        return View();
+    }
     
     public IActionResult Index()
     {

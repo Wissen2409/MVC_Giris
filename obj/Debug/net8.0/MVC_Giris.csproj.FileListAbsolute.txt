@@ -28,3 +28,4 @@
 /Users/emrahelis/MVC_Giris/obj/Debug/net8.0/MVC_Giris.pdb
 /Users/emrahelis/MVC_Giris/obj/Debug/net8.0/MVC_Giris.genruntimeconfig.cache
 /Users/emrahelis/MVC_Giris/obj/Debug/net8.0/ref/MVC_Giris.dll
+/Users/emrahelis/MVC_Giris/obj/Debug/net8.0/MVC_Giris.sourcelink.json
