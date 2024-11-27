@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC_Giris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abeb6f029d3b9504de894a992d03432273a89140")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC_Giris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC_Giris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
